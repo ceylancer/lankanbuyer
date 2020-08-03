@@ -29,3 +29,26 @@ For this I used the following command to install them
 ```
 pipenv install django djangorestframework django-rest-knox
 ```
+
+## 4) create project 'buyermanager'
+```
+django-admin startproject buyermanager
+```
+
+after that, Go to `buyermanager` directory with `cd buyermanager` command.
+Then, inside that run the commands to create a app (django concept)
+
+## 5) Create an app called 'buyers'
+```
+python manage.py startapp buyers
+```
+
+Project structure is
+```
+├── buyermanager
+└── buyers
+```
+'buyermanager' is the core of the project. In here, there is a `settings` file
+In that, you have to add the `buyers` app and `rest_framework` under installed apps
+(`INSTALLED_APPS`)
+
