@@ -1,0 +1,34 @@
+{
+  "name": "lankanbuyer-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for lankanbuyer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/index.js --output ./static/frontend/main.js",
+    "build": "webpack --mode production ./src/index.js --output ./static/frontend/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceylancer/lankanbuyer.git"
+  },
+  "keywords": [
+    "buyer"
+  ],
+  "author": "ceylancer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceylancer/lankanbuyer/issues"
+  },
+  "homepage": "https://github.com/ceylancer/lankanbuyer#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
