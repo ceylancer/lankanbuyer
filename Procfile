@@ -1,1 +1,1 @@
-web: gunicorn buyermanager.wsgi
+web: gunicorn buyermanager.buyermanager.wsgi
